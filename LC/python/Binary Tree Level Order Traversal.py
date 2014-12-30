@@ -9,7 +9,8 @@ class Solution:
     # @param root, a tree node
     # @return a list of lists of integers
     
-    #二叉树的层序遍历可以用bfs或者dfs来实现。这里使用的dfs实现，代码比较简洁。实际上，二叉树的先序遍历就是dfs实现
+    #dfs or bfs
+    #actually, preorder is kind of dfs
     def preorder(self, root, level, result):
         if root != None:
             if len(result) < level+1: 
