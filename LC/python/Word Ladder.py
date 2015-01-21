@@ -4,8 +4,6 @@ class Solution:
     # @param dict, a set of string
     # @return an integer
     def ladderLength(self, start, end, dict):
-        if len(start) == 1:
-            return 2
         q1 = [start]
         n = 1
         dict.add(end)
