@@ -1,0 +1,1 @@
+SELECT distinct a.Email from Person a join Person b on (a.Email = b.Email) where a.Id <> b.Id;
